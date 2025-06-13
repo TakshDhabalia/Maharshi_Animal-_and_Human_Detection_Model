@@ -1,0 +1,16 @@
+1. test script 
+2. 2 options , YOLO and all or custom CNN 
+3. wandb usage 
+4. pipeline - ./models , ./test_videos/ , .outputs/ and script mentioned in pt 1
+5. traning 2 models and justification in readme 
+
+
+project/ o ├── datasets/ # Dataset storage
+ o ├── models/ # Saved models
+  o ├── test_videos/ # Upload test videos here 
+  o ├── outputs/ # Output results (e.g., annotated videos)
+   o └── animal_human_detection.py # Python script with comments 
+
+
+   2 models , YOLO and resnet 
+   

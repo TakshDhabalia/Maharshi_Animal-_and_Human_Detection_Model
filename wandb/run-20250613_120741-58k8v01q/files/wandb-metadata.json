@@ -1,0 +1,27 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.11.13",
+  "startedAt":  "2025-06-13T06:37:41.798658Z",
+  "program":  "d:\\Internship_Tasks\\Maharshi_Animal-_and_Human_Detection_Model\\YOLO_detection_model\\main.py",
+  "codePath":  "Maharshi_Animal-_and_Human_Detection_Model\\YOLO_detection_model\\main.py",
+  "email":  "dhabalia.taksh@gmail.com",
+  "root":  "D:\\Internship_Tasks",
+  "host":  "Taksh",
+  "executable":  "C:\\Users\\dhaba\\anaconda3\\envs\\MH\\python.exe",
+  "codePathLocal":  "Maharshi_Animal-_and_Human_Detection_Model\\YOLO_detection_model\\main.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "354264543232",
+      "used":  "2782429184"
+    }
+  },
+  "memory":  {
+    "total":  "21239947264"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

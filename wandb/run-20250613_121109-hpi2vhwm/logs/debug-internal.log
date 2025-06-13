@@ -1,0 +1,15 @@
+{"time":"2025-06-13T12:11:09.7292041+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"D:\\Internship_Tasks\\wandb\\run-20250613_121109-hpi2vhwm\\logs\\debug-core.log"}
+{"time":"2025-06-13T12:11:10.1839857+05:30","level":"INFO","msg":"stream: created new stream","id":"hpi2vhwm"}
+{"time":"2025-06-13T12:11:10.1839857+05:30","level":"INFO","msg":"stream: started","id":"hpi2vhwm"}
+{"time":"2025-06-13T12:11:10.1839857+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hpi2vhwm"}
+{"time":"2025-06-13T12:11:10.1839857+05:30","level":"INFO","msg":"sender: started","stream_id":"hpi2vhwm"}
+{"time":"2025-06-13T12:11:10.1839857+05:30","level":"INFO","msg":"handler: started","stream_id":"hpi2vhwm"}
+{"time":"2025-06-13T12:11:10.545023+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-13T12:11:11.2125647+05:30","level":"INFO","msg":"stream: closing","id":"hpi2vhwm"}
+{"time":"2025-06-13T12:11:11.2130811+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-13T12:11:11.2130811+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-13T12:11:13.0606648+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-13T12:11:13.4255254+05:30","level":"INFO","msg":"handler: closed","stream_id":"hpi2vhwm"}
+{"time":"2025-06-13T12:11:13.4255254+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hpi2vhwm"}
+{"time":"2025-06-13T12:11:13.4255254+05:30","level":"INFO","msg":"sender: closed","stream_id":"hpi2vhwm"}
+{"time":"2025-06-13T12:11:13.4255254+05:30","level":"INFO","msg":"stream: closed","id":"hpi2vhwm"}

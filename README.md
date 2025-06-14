@@ -58,7 +58,7 @@ I sourced annotated data from open repositories and manually curated a custom da
 ![wandb rund](Readme_material/RUND.png)
 ---
 
-## 📀 Pipeline Architecture
+## Pipeline Architecture
 
 Our unified pipeline includes the following stages:
 1. YOLOv8 detection on frames
@@ -70,7 +70,7 @@ Our unified pipeline includes the following stages:
 
 ---
 
-## 📊 Testing and Results
+## Testing and Results
 
 Below is an example output with YOLO+MobileNet:
 

@@ -30,20 +30,20 @@ I sourced annotated data from open repositories and manually curated a custom da
 - **Results**: High computational cost, overfitting issues, poor generalization and also very bas approach overall.
 - I thought he ensembler would work in parallel but a very mixed result is found in the end with conflicting endings 
 
-![ViT Approach](Readme_material\Maharshi-ViT_approach.jpg)
+![ViT Approach](Readme_material/Maharshi-ViT_approach.jpg)
 
 ### 2. **YOLO + MobileNet (Custom Dataset)**
 - MobileNet was fine-tuned on our curated dataset.
 - LightIight, fast, and significantly more accurate.
 
-![MobilNet Custom CNN](Readme_material\Maharshi-CNN.jpg)
+![MobilNet Custom CNN](Readme_material/Maharshi-CNN.jpg)
 
 ### 3. **YOLO + HuggingFace API**
 - Used [dima806/animal_151_types_image_detection](https://huggingface.co/dima806/animal_151_types_image_detection/tree/main).
 - Achieved fast prototyping, no training, and good generalization on rare animal classes.
 
 
-![HF Approach](Readme_material\Maharshi-HF.jpg)
+![HF Approach](Readme_material/Maharshi-HF.jpg)
 ![API Approach 1](Readme_material/api_approach_1.png)  
 ![API Approach 2](Readme_material/api_approach_2.png)
 

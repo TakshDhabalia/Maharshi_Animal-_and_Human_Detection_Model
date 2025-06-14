@@ -10,7 +10,7 @@ from transformers import pipeline
 # ============================
 # Section 1: Configuration
 # ============================
-VIDEO_INPUT_DIR = r'D:\Internship_Tasks\Maharshi_Animal-_and_Human_Detection_Model\Maharshi_Animal-_and_Human_Detection_Model\test_videos'
+VIDEO_INPUT_DIR = r'scripts'
 INTERMEDIATE_OUTPUT_DIR = './intermediate/'
 ANNOTATED_FRAMES_DIR = os.path.join(INTERMEDIATE_OUTPUT_DIR, 'annotated_frames')
 CROPS_DIR = os.path.join(INTERMEDIATE_OUTPUT_DIR, 'crops')

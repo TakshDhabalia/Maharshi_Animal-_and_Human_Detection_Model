@@ -1,0 +1,520 @@
+[
+    {
+        "video": "videoplayback",
+        "frame_time": 0,
+        "box_id": 0,
+        "bbox": [
+            5,
+            247,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.017947837710380554,
+        "crop_file": "videoplayback_sec0_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 1,
+        "box_id": 0,
+        "bbox": [
+            3,
+            248,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.02256089821457863,
+        "crop_file": "videoplayback_sec1_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 2,
+        "box_id": 0,
+        "bbox": [
+            1,
+            245,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.0184231735765934,
+        "crop_file": "videoplayback_sec2_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 2,
+        "box_id": 1,
+        "bbox": [
+            357,
+            188,
+            480,
+            700
+        ],
+        "label": "ornithorhynchus-anatinus",
+        "confidence": 0.03237445279955864,
+        "crop_file": "videoplayback_sec2_det1_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 3,
+        "box_id": 0,
+        "bbox": [
+            2,
+            245,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.019562944769859314,
+        "crop_file": "videoplayback_sec3_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 4,
+        "box_id": 0,
+        "bbox": [
+            0,
+            246,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.01793263852596283,
+        "crop_file": "videoplayback_sec4_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 5,
+        "box_id": 0,
+        "bbox": [
+            1,
+            247,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.017789192497730255,
+        "crop_file": "videoplayback_sec5_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 5,
+        "box_id": 1,
+        "bbox": [
+            4,
+            353,
+            159,
+            581
+        ],
+        "label": "ophiophagus-hannah",
+        "confidence": 0.034122783690690994,
+        "crop_file": "videoplayback_sec5_det1_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 6,
+        "box_id": 0,
+        "bbox": [
+            0,
+            244,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.01629963144659996,
+        "crop_file": "videoplayback_sec6_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 7,
+        "box_id": 0,
+        "bbox": [
+            3,
+            246,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.016123611479997635,
+        "crop_file": "videoplayback_sec7_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 8,
+        "box_id": 0,
+        "bbox": [
+            1,
+            246,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.01956716924905777,
+        "crop_file": "videoplayback_sec8_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 9,
+        "box_id": 0,
+        "bbox": [
+            0,
+            243,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.01930270902812481,
+        "crop_file": "videoplayback_sec9_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 10,
+        "box_id": 0,
+        "bbox": [
+            1,
+            248,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.01911080814898014,
+        "crop_file": "videoplayback_sec10_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 11,
+        "box_id": 0,
+        "bbox": [
+            2,
+            245,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.01697864569723606,
+        "crop_file": "videoplayback_sec11_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 12,
+        "box_id": 0,
+        "bbox": [
+            1,
+            249,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.01761951856315136,
+        "crop_file": "videoplayback_sec12_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 13,
+        "box_id": 0,
+        "bbox": [
+            2,
+            246,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.018481573089957237,
+        "crop_file": "videoplayback_sec13_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 14,
+        "box_id": 0,
+        "bbox": [
+            1,
+            246,
+            477,
+            852
+        ],
+        "label": "physalia-physalis",
+        "confidence": 0.015823202207684517,
+        "crop_file": "videoplayback_sec14_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 15,
+        "box_id": 0,
+        "bbox": [
+            1,
+            247,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.023875560611486435,
+        "crop_file": "videoplayback_sec15_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 16,
+        "box_id": 0,
+        "bbox": [
+            2,
+            246,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.023040613159537315,
+        "crop_file": "videoplayback_sec16_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 17,
+        "box_id": 0,
+        "bbox": [
+            1,
+            247,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.015468951314687729,
+        "crop_file": "videoplayback_sec17_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 18,
+        "box_id": 0,
+        "bbox": [
+            2,
+            246,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.01720215007662773,
+        "crop_file": "videoplayback_sec18_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 19,
+        "box_id": 0,
+        "bbox": [
+            1,
+            245,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.017323093488812447,
+        "crop_file": "videoplayback_sec19_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 19,
+        "box_id": 1,
+        "bbox": [
+            0,
+            411,
+            64,
+            774
+        ],
+        "label": "eunectes-murinus",
+        "confidence": 0.029568903148174286,
+        "crop_file": "videoplayback_sec19_det1_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 20,
+        "box_id": 0,
+        "bbox": [
+            1,
+            246,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.02327267825603485,
+        "crop_file": "videoplayback_sec20_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 21,
+        "box_id": 0,
+        "bbox": [
+            1,
+            244,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.019820867106318474,
+        "crop_file": "videoplayback_sec21_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 22,
+        "box_id": 0,
+        "bbox": [
+            0,
+            246,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.023015474900603294,
+        "crop_file": "videoplayback_sec22_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 23,
+        "box_id": 0,
+        "bbox": [
+            0,
+            248,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.01901337318122387,
+        "crop_file": "videoplayback_sec23_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 24,
+        "box_id": 0,
+        "bbox": [
+            2,
+            243,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.013369419611990452,
+        "crop_file": "videoplayback_sec24_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 24,
+        "box_id": 1,
+        "bbox": [
+            0,
+            383,
+            136,
+            770
+        ],
+        "label": "chrysemys-picta",
+        "confidence": 0.04719950631260872,
+        "crop_file": "videoplayback_sec24_det1_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 25,
+        "box_id": 0,
+        "bbox": [
+            2,
+            244,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.017049942165613174,
+        "crop_file": "videoplayback_sec25_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 26,
+        "box_id": 0,
+        "bbox": [
+            1,
+            243,
+            477,
+            851
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.019385674968361855,
+        "crop_file": "videoplayback_sec26_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 27,
+        "box_id": 0,
+        "bbox": [
+            1,
+            244,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.020746124908328056,
+        "crop_file": "videoplayback_sec27_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 28,
+        "box_id": 0,
+        "bbox": [
+            0,
+            245,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.018965933471918106,
+        "crop_file": "videoplayback_sec28_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 29,
+        "box_id": 0,
+        "bbox": [
+            1,
+            245,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.017936961725354195,
+        "crop_file": "videoplayback_sec29_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 30,
+        "box_id": 0,
+        "bbox": [
+            1,
+            245,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.021686160936951637,
+        "crop_file": "videoplayback_sec30_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 31,
+        "box_id": 0,
+        "bbox": [
+            2,
+            245,
+            478,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.022065917029976845,
+        "crop_file": "videoplayback_sec31_det0_person.jpg"
+    },
+    {
+        "video": "videoplayback",
+        "frame_time": 32,
+        "box_id": 0,
+        "bbox": [
+            1,
+            244,
+            477,
+            852
+        ],
+        "label": "homo-sapiens",
+        "confidence": 0.026147911325097084,
+        "crop_file": "videoplayback_sec32_det0_person.jpg"
+    }
+]

@@ -15,7 +15,7 @@ IMAGE_SIZE = (224, 224)
 CLASS_NAMES = ['Cat', 'Dog', 'Elephant', 'Lion', 'Person']
 MODEL_PATH = 'animal_person_classifier.h5'
 YOLO_CONFIDENCE = 0.5
-INTERMEDIATE_DIR = Path("intermediate/croppedddd")
+INTERMEDIATE_DIR = Path("intermediate/cropped")
 INTERMEDIATE_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -119,7 +119,7 @@ def classify_image(img_rgb, model, yolo_detector, save_prefix="frame"):
     predictions = model.predict(img_array, verbose=0)[0]
     predicted_class_idx = np.argmax(predictions)
     confidence = np.max(predictions)
-    print(f"[RESULT] Prediction: {CLASS_NAMES[predicted_class_idx]}, Confidence: {confidence:.2f}")
+    print(f"[RESULT] Prediction: {CLASS_NAMES[predicted_class_idx]}, Confidence: {confidence:.2f}  \n\n")
     return box, CLASS_NAMES[predicted_class_idx], confidence, predictions
 
 
@@ -194,11 +194,11 @@ def main():
     parser.add_argument('--yolo-model', type=str, default='yolov8x.pt', help='Path to YOLO model.')
     args = parser.parse_args()
 
-    print("[START] Loading classification model...")
+    print("[START] Loading classification model... \n")
     model = load_model(MODEL_PATH)
-    print("[INFO] Model loaded successfully.")
+    print("[INFO] Model loaded successfully. \n")
 
-    print("[START] Initializing YOLO detector...")
+    print("[START] Initializing YOLO detector... \n")
     yolo_detector = YOLODetector(args.yolo_model)
 
     if args.image:
@@ -208,7 +208,7 @@ def main():
         print(f"[RUN] Processing video: {args.video}")
         process_video(args.video, model, yolo_detector)
     else:
-        print("[ERROR] Please provide either --image or --video as input.")
+        print("[ERROR] Please provide either --image or --video as input. \n")
 
 
 if __name__ == "__main__":

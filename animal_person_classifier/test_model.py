@@ -181,7 +181,7 @@ def test_single_image(image_path, model, yolo_detector):
     
     plt.tight_layout()
     plt.show()
-    
+    plt.savefig('output_prediction_visual.png')
     print(f"Preprocessing time: {preprocess_time*1000:.1f}ms")
     print(f"Inference time: {inference_time*1000:.1f}ms")
     print(f"Predicted: {CLASS_NAMES[predicted_class_idx]} with confidence {confidence:.2f}")

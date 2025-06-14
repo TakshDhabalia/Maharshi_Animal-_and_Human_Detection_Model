@@ -13,8 +13,8 @@ I explored three distinct classification strategies:
 
 I sourced annotated data from open repositories and manually curated a custom dataset by cropping YOLO-detected bounding boxes of entities.
 
-- I validated dataset quality through visual sampling, class balance, and noise checks.
-- Image samples Ire filtered for clarity, centered content, and consistent class distribution.
+- I validated dataset quality through visual sampling, class balance, and noise checks as in how diverse each image was.
+- Image samples Ire filtered for clarity, centered content, and consistent class distribution and good splits .
 - Image Datasets were also selected based on amount of data in them and the suggested splits as well 
 - here are the links 
 - https://www.kaggle.com/datasets/shiv28/animal-5-mammal
@@ -26,22 +26,22 @@ I sourced annotated data from open repositories and manually curated a custom da
 ## Model Approaches
 
 ### 1. **YOLO + ViT**
-- I used a pre-trained ViT for classifying objects from YOLO detections.
+- I used a pre-trained ViT for classifying objects from YOLO detections on a custom dataset and split as well .
 - **Results**: High computational cost, overfitting issues, poor generalization and also very bas approach overall.
 - I thought he ensembler would work in parallel but a very mixed result is found in the end with conflicting endings 
-
+- the whole approach did not pan out that well
 ![ViT Approach](Readme_material/Maharshi-ViT_approach.jpg)
 
 ### 2. **YOLO + MobileNet (Custom Dataset)**
 - MobileNet was fine-tuned on our curated dataset.
 - LightIight, fast, and significantly more accurate.
-
+- best output on any image / video input 
 ![MobilNet Custom CNN](Readme_material/Maharshi-CNN.jpg)
 
 ### 3. **YOLO + HuggingFace API**
 - Used [dima806/animal_151_types_image_detection](https://huggingface.co/dima806/animal_151_types_image_detection/tree/main).
 - Achieved fast prototyping, no training, and good generalization on rare animal classes.
-
+- good for internal classification as well of animals 
 
 ![HF Approach](Readme_material/Maharshi-HF.jpg)
 ![API Approach 1](Readme_material/api_approach_1.png)  

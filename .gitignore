@@ -1,2 +1,5 @@
 dst/models/vit_animal_binary.pth
 ViT_approach/models/vit_animal_binary.pth
+*.pt
+*.pth
+*.zip

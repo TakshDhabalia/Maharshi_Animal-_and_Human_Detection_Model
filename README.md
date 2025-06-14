@@ -96,7 +96,7 @@ Below is an example output with YOLO+MobileNet:
 
 ![Annotated Frame](Readme_material/videoplayback_sec0_annotated.jpg)  
 
-
+![Annotated Frame](Readme_material/annotated_final_test.jpg) 
 ---
 
 ## Conclusion

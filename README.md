@@ -1,44 +1,49 @@
-# 🧠 Animal and Person Detection Pipeline
+# Animal and Person Detection Pipeline
 
 This repository presents multiple approaches for detecting animals and people in video footage. Our pipeline combines **YOLOv8** object detection with various classification strategies to label detected entities as either *Person* or *Animal*.
 
-We explored three distinct classification strategies:
+I explored three distinct classification strategies:
 
-1. **YOLO + ViT (Vision Transformer)** — baseline trial  
+1. **YOLO + ViT (Vision Transformer)** — baseline trial approach
 2. **YOLO + MobileNet on Custom Dataset** — optimized local model  
 3. **YOLO + HuggingFace API** — offloaded classification via API
+---
+
+##  Dataset
+
+I sourced annotated data from open repositories and manually curated a custom dataset by cropping YOLO-detected bounding boxes of entities.
+
+- I validated dataset quality through visual sampling, class balance, and noise checks.
+- Image samples Ire filtered for clarity, centered content, and consistent class distribution.
+- Image Datasets were also selected based on amount of data in them and the suggested splits as well 
+- here are the links 
+- https://www.kaggle.com/datasets/shiv28/animal-5-mammal
+- https://huggingface.co/Dalmatiner/cv_animals
+- https://huggingface.co/dima806/animal_151_types_image_detection/tree/main
 
 ---
 
-## 📂 Dataset
-
-We sourced annotated data from open repositories and manually curated a custom dataset by cropping YOLO-detected bounding boxes of entities.
-
-- We validated dataset quality through visual sampling, class balance, and noise checks.
-- Image samples were filtered for clarity, centered content, and consistent class distribution.
-
-![Validation Sample](Readme_material/Validation.jpg)
-
----
-
-## 📊 Model Approaches
+## Model Approaches
 
 ### 1. **YOLO + ViT**
-- We used a pre-trained ViT for classifying crops from YOLO detections.
-- **Results**: High computational cost, overfitting issues, poor generalization.
+- I used a pre-trained ViT for classifying objects from YOLO detections.
+- **Results**: High computational cost, overfitting issues, poor generalization and also very bas approach overall.
+- I thought he ensembler would work in parallel but a very mixed result is found in the end with conflicting endings 
 
-![ViT](Readme_material/ViT%20approach.png)
+![ViT Approach](Readme_material\Maharshi-ViT_approach.jpg)
 
 ### 2. **YOLO + MobileNet (Custom Dataset)**
 - MobileNet was fine-tuned on our curated dataset.
-- Lightweight, fast, and significantly more accurate.
+- LightIight, fast, and significantly more accurate.
 
-![Training History](Readme_material/training_history.png)
+![MobilNet Custom CNN](Readme_material\Maharshi-CNN.jpg)
 
 ### 3. **YOLO + HuggingFace API**
 - Used [dima806/animal_151_types_image_detection](https://huggingface.co/dima806/animal_151_types_image_detection/tree/main).
 - Achieved fast prototyping, no training, and good generalization on rare animal classes.
 
+
+![HF Approach](Readme_material\Maharshi-HF.jpg)
 ![API Approach 1](Readme_material/api_approach_1.png)  
 ![API Approach 2](Readme_material/api_approach_2.png)
 
@@ -47,10 +52,10 @@ We sourced annotated data from open repositories and manually curated a custom d
 ## ⚖️ Training Process
 
 - Used `wandb` for logging training metrics, learning rate, and augmentation tracking.
-- Enabled early stopping and hyperparameter tuning via sweeps.
+- Enabled early stopping and hyperparameter tuning via sIeps.
 
 ![wandb](Readme_material/wandb.png)
-
+![wandb rund](Readme_material/RUND.png)
 ---
 
 ## 📀 Pipeline Architecture
@@ -72,24 +77,25 @@ Below is an example output with YOLO+MobileNet:
 ![Annotated Frame](Readme_material/videoplayback_sec0_annotated.jpg)  
 
 Also sample intermediate frames:
-
+<img src="Readme_material/frame0_96b7a1d9.jpg" alt="Sample Frame 1" width="300"/>
 ![Sample Frame 1](Readme_material/frame0_96b7a1d9.jpg)  
-![Sample Frame 2](Readme_material/frame0_96b7a1d9%20copy.jpg)
+
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Among the three methods:
-- **YOLO + MobileNet** offered the best balance between accuracy and inference speed.
-- **ViT** was computationally expensive with lower ROI.
-- **HuggingFace API** provided rapid prototyping and high flexibility.
+- **YOLO + MobileNet** offered the best balance betIen accuracy and inference speed. -- best results from custom training 
+- **ViT** was computationally expensive with loIr ROI. -- worst result and incomplete answers 
+- **HuggingFace API** provided rapid prototyping and high flexibility. -- great classification and general outputs 
 
 ---
 
-## 💡 Future Work
+##  Future Work
 - Expand the dataset to more animal classes
-- Test newer transformer-based lightweight classifiers
-- Integrate real-time webcam streaming support
+- Test neIr transformer-based lightIight classifiers
+- Integrate real-time Ibcam streaming support
+- better use of enseble blocks 
 
 ---

@@ -1,0 +1,5 @@
+felis-catus: 0.2897
+rattus-rattus: 0.0084
+panthera-leo: 0.0077
+procyon-lotor: 0.0076
+puma-concolor: 0.0074

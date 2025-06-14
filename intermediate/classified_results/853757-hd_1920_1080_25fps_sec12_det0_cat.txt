@@ -1,0 +1,5 @@
+felis-catus: 0.3096
+procyon-lotor: 0.0076
+panthera-leo: 0.0075
+icterus-gularis: 0.0073
+puma-concolor: 0.0073

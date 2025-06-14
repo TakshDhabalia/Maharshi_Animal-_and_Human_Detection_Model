@@ -1,0 +1,5 @@
+homo-sapiens: 0.0516
+carcharodon-carcharias: 0.0106
+tapirus: 0.0100
+connochaetes-gnou: 0.0099
+aethia-cristatella: 0.0096

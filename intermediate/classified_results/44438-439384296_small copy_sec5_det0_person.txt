@@ -1,0 +1,5 @@
+homo-sapiens: 0.0190
+carcharodon-carcharias: 0.0152
+equus-caballus: 0.0126
+sphyrna-mokarran: 0.0101
+smilodon-populator: 0.0096

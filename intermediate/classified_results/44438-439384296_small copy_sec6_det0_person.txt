@@ -1,0 +1,5 @@
+homo-sapiens: 0.0166
+carcharodon-carcharias: 0.0164
+equus-caballus: 0.0128
+agalychnis-callidryas: 0.0099
+desmodus-rotundus: 0.0091

@@ -1,0 +1,5 @@
+homo-sapiens: 0.0297
+carcharodon-carcharias: 0.0126
+equus-caballus: 0.0119
+smilodon-populator: 0.0098
+desmodus-rotundus: 0.0095

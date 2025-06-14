@@ -1,0 +1,5 @@
+homo-sapiens: 0.0781
+monodon-monoceros: 0.0112
+tapirus: 0.0095
+carcharodon-carcharias: 0.0092
+enteroctopus-dofleini: 0.0091

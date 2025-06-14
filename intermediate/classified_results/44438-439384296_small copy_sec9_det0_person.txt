@@ -1,0 +1,5 @@
+homo-sapiens: 0.0310
+carcharodon-carcharias: 0.0119
+tapirus: 0.0106
+spheniscus-demersus: 0.0098
+equus-caballus: 0.0098

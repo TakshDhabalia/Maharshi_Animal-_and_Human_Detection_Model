@@ -1,0 +1,57 @@
+Some weights of ViTModel were not initialized from the model checkpoint at google/vit-base-patch16-224 and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch [1/5]
+Training:  89%|███████████████████████████████████████████████████████████████████████████████████████████████████▎            | 39/44 [10:31<01:13, 14.73s/it, Batch Loss=0.000386, Running Acc=100.00%]
+  [Batch 10/44] Loss: 0.1689
+  [Batch 20/44] Loss: 0.0406
+  [Batch 30/44] Loss: 0.0097
+  [Batch 40/44] Loss: 0.0062
+✅ Epoch 1: Train Loss=0.1091, Train Acc=0.9886, Val Loss=0.0038, Val Acc=1.0000
+
+Epoch [2/5]
+  [Batch 10/44] Loss: 0.0034
+  [Batch 20/44] Loss: 0.0015
+  [Batch 30/44] Loss: 0.0010
+  [Batch 40/44] Loss: 0.0012
+✅ Epoch 2: Train Loss=0.0021, Train Acc=1.0000, Val Loss=0.0013, Val Acc=1.0000
+
+Epoch [3/5]
+  [Batch 10/44] Loss: 0.0012
+  [Batch 20/44] Loss: 0.0007
+  [Batch 30/44] Loss: 0.0009
+  [Batch 40/44] Loss: 0.0009
+✅ Epoch 3: Train Loss=0.0010, Train Acc=1.0000, Val Loss=0.0008, Val Acc=1.0000
+
+Epoch [4/5]
+  [Batch 10/44] Loss: 0.0005
+  [Batch 20/44] Loss: 0.0006
+  [Batch 30/44] Loss: 0.0010
+  [Batch 40/44] Loss: 0.0006
+✅ Epoch 4: Train Loss=0.0006, Train Acc=1.0000, Val Loss=0.0005, Val Acc=1.0000
+
+Epoch [5/5]
+  [Batch 10/44] Loss: 0.0004
+  [Batch 20/44] Loss: 0.0005
+  [Batch 30/44] Loss: 0.0003
+  [Batch 40/44] Loss: 0.0004
+✅ Epoch 5: Train Loss=0.0004, Train Acc=1.0000, Val Loss=0.0004, Val Acc=1.0000
+  File "d:\Internship_Tasks\Maharshi_Animal-_and_Human_Detection_Model\dst\mmm.py", line 186, in <module>
+    wandb.save("vit_animal_binary.pth")
+  File "C:\Users\dhaba\anaconda3\envs\MH\Lib\site-packages\wandb\sdk\wandb_run.py", line 391, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhaba\anaconda3\envs\MH\Lib\site-packages\wandb\sdk\wandb_run.py", line 449, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhaba\anaconda3\envs\MH\Lib\site-packages\wandb\sdk\wandb_run.py", line 436, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhaba\anaconda3\envs\MH\Lib\site-packages\wandb\sdk\wandb_run.py", line 2074, in save
+    return self._save(
+           ^^^^^^^^^^^
+  File "C:\Users\dhaba\anaconda3\envs\MH\Lib\site-packages\wandb\sdk\wandb_run.py", line 2133, in _save
+    target_path.symlink_to(source_path)
+  File "C:\Users\dhaba\anaconda3\envs\MH\Lib\pathlib.py", line 1198, in symlink_to
+    os.symlink(target, self, target_is_directory)
+OSError: [WinError 1314] A required privilege is not held by the client: 'D:\\Internship_Tasks\\Maharshi_Animal-_and_Human_Detection_Model\\vit_animal_binary.pth' -> 'D:\\Internship_Tasks\\Maharshi_Animal-_and_Human_Detection_Model\\wandb\\run-20250614_160933-zzj5btl8\\files\\vit_animal_binary.pth'

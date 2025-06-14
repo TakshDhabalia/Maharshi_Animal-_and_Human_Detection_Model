@@ -1,0 +1,31 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.11.13",
+  "startedAt":  "2025-06-14T10:35:44.844147Z",
+  "program":  "d:\\Internship_Tasks\\Maharshi_Animal-_and_Human_Detection_Model\\dst\\mmm.py",
+  "codePath":  "dst\\mmm.py",
+  "git":  {
+    "remote":  "https://github.com/TakshDhabalia/Maharshi_Animal-_and_Human_Detection_Model.git",
+    "commit":  "4100296b16803171bd436684cbd950a6e9b3eb1d"
+  },
+  "email":  "dhabalia.taksh@gmail.com",
+  "root":  "D:\\Internship_Tasks\\Maharshi_Animal-_and_Human_Detection_Model",
+  "host":  "Taksh",
+  "executable":  "C:\\Users\\dhaba\\anaconda3\\envs\\MH\\python.exe",
+  "codePathLocal":  "dst\\mmm.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "354264543232",
+      "used":  "4976865280"
+    }
+  },
+  "memory":  {
+    "total":  "21239947264"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

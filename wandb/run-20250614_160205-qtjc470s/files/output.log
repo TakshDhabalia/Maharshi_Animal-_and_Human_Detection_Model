@@ -1,0 +1,7 @@
+Some weights of ViTModel were not initialized from the model checkpoint at google/vit-base-patch16-224 and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Traceback (most recent call last):
+  File "d:\Internship_Tasks\Maharshi_Animal-_and_Human_Detection_Model\dst\mmm.py", line 108, in <module>
+    optimizer = AdamW(model.parameters(), lr=config.lr)
+                ^^^^^
+NameError: name 'AdamW' is not defined

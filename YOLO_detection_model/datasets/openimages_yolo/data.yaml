@@ -1,8 +1,0 @@
-path: datasets/openimages_yolo
-train: images/train
-val: images/val
-names:
-  0: Cat
-  1: Dog
-  2: Person
-  3: Horse

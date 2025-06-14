@@ -1,0 +1,7 @@
+{"time":"2025-06-14T15:55:48.010214+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"d:\\Internship_Tasks\\Maharshi_Animal-_and_Human_Detection_Model\\dst\\wandb\\run-20250614_155546-ne5kluk9\\logs\\debug-core.log"}
+{"time":"2025-06-14T15:55:48.4839816+05:30","level":"INFO","msg":"stream: created new stream","id":"ne5kluk9"}
+{"time":"2025-06-14T15:55:48.4839816+05:30","level":"INFO","msg":"stream: started","id":"ne5kluk9"}
+{"time":"2025-06-14T15:55:48.4839816+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ne5kluk9"}
+{"time":"2025-06-14T15:55:48.4839816+05:30","level":"INFO","msg":"handler: started","stream_id":"ne5kluk9"}
+{"time":"2025-06-14T15:55:48.4839816+05:30","level":"INFO","msg":"sender: started","stream_id":"ne5kluk9"}
+{"time":"2025-06-14T15:55:49.0029054+05:30","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,13 @@
+{"time":"2025-06-14T14:14:41.3431502+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"d:\\Internship_Tasks\\Maharshi_Animal-_and_Human_Detection_Model\\dst\\wandb\\run-20250614_141440-36vkyihk\\logs\\debug-core.log"}
+{"time":"2025-06-14T14:14:44.7759937+05:30","level":"INFO","msg":"stream: created new stream","id":"36vkyihk"}
+{"time":"2025-06-14T14:14:44.7759937+05:30","level":"INFO","msg":"stream: started","id":"36vkyihk"}
+{"time":"2025-06-14T14:14:44.7759937+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"36vkyihk"}
+{"time":"2025-06-14T14:14:44.7759937+05:30","level":"INFO","msg":"handler: started","stream_id":"36vkyihk"}
+{"time":"2025-06-14T14:14:44.7769436+05:30","level":"INFO","msg":"sender: started","stream_id":"36vkyihk"}
+{"time":"2025-06-14T14:14:45.2984924+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-14T14:14:49.4790905+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-14T14:14:51.0081511+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-14T14:14:53.9289854+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-14T14:14:53.9346378+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-14T14:14:56.1553812+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-14T14:15:00.2148752+05:30","level":"INFO","msg":"Resuming system monitor"}

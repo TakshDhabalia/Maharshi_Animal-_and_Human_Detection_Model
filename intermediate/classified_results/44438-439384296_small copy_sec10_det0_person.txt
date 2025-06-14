@@ -1,5 +1,0 @@
-homo-sapiens: 0.0609
-tapirus: 0.0102
-monodon-monoceros: 0.0094
-eidolon-helvum: 0.0094
-carcharodon-carcharias: 0.0093

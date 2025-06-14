@@ -1,5 +1,0 @@
-felis-catus: 0.2940
-procyon-lotor: 0.0078
-panthera-leo: 0.0077
-melanerpes-carolinus: 0.0075
-rattus-rattus: 0.0075

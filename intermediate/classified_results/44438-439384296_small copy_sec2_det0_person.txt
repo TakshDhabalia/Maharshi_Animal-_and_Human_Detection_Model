@@ -1,5 +1,0 @@
-homo-sapiens: 0.0708
-carcharodon-carcharias: 0.0101
-monodon-monoceros: 0.0099
-tapirus: 0.0096
-connochaetes-gnou: 0.0090

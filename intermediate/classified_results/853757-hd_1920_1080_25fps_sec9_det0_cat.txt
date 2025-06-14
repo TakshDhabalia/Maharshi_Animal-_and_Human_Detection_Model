@@ -1,5 +1,0 @@
-felis-catus: 0.2817
-puma-concolor: 0.0081
-melanerpes-carolinus: 0.0079
-procyon-lotor: 0.0079
-panthera-leo: 0.0078

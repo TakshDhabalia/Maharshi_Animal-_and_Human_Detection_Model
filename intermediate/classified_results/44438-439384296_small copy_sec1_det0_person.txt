@@ -1,5 +1,0 @@
-homo-sapiens: 0.0397
-carcharodon-carcharias: 0.0112
-monodon-monoceros: 0.0103
-spheniscus-demersus: 0.0098
-bos-gaurus: 0.0096

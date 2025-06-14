@@ -1,5 +1,0 @@
-felis-catus: 0.0445
-lepus-americanus: 0.0341
-canis-lupus: 0.0147
-smilodon-populator: 0.0129
-puma-concolor: 0.0115

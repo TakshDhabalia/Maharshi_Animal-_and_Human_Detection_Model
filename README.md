@@ -48,8 +48,28 @@ I sourced annotated data from open repositories and manually curated a custom da
 ![API Approach 2](Readme_material/api_approach_2.png)
 
 ---
+## HOW TO RUN 
+### Usage
 
-## ⚖️ Training Process
+#### HuggingFace API Approach
+
+```bash
+cd ./scripts
+python Approach_1_API.py
+```
+#### Classifier approach ViT
+
+```bash
+cd ./animal_person_classifier
+python test_model.py --image NT.jpg
+```
+#### MobilNeT Custom CNN approach
+
+```bash
+cd ./scripts
+python Approach_2_Model.py --video videoplayback.mp4
+```
+## Training Process
 
 - Used `wandb` for logging training metrics, learning rate, and augmentation tracking.
 - Enabled early stopping and hyperparameter tuning via sIeps.

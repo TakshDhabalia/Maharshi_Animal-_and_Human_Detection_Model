@@ -113,6 +113,40 @@ def process_video(video_path, interval=1):
     cap.release()
     print(f"[DONE] Completed processing of video: {video_path}")
     return frame_results
+def process_image(image_path):
+    print(f"\n[PROCESS] Processing image: {image_path}")
+    image = cv2.imread(image_path)
+    results = detector(image)[0]
+    boxes = results.boxes
+
+    annotated_image = image.copy()
+
+    for i, box in enumerate(boxes):
+        cls_id = int(box.cls[0])
+        conf = float(box.conf[0])
+        x1, y1, x2, y2 = map(int, box.xyxy[0])
+
+        crop = image[y1:y2, x1:x2]
+        crop_path = os.path.join(CROPS_DIR, f"image_det{i}.jpg")
+        cv2.imwrite(crop_path, crop)
+
+        try:
+            img_pil = Image.open(crop_path).convert("RGB")
+            preds = classifier(img_pil)
+            top_pred = preds[0]
+            label = f"{top_pred['label']} ({top_pred['score']:.2f})"
+        except Exception as e:
+            label = "Unknown"
+            top_pred = {"label": "unknown", "score": 0.0}
+
+        # Draw box + label
+        cv2.rectangle(annotated_image, (x1, y1), (x2, y2), (0, 255, 0), 2)
+        cv2.putText(annotated_image, label, (x1, y1 - 10),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+
+    save_path = os.path.join(ANNOTATED_FRAMES_DIR, f"annotated_{Path(image_path).stem}.jpg")
+    cv2.imwrite(save_path, annotated_image)
+    print(f"[SAVE] Annotated image saved to {save_path}")
 
 # ============================
 # Section 3: Monitor Directory
@@ -142,4 +176,6 @@ def monitor_directory():
 # Section 4: Run Script
 # ============================
 if __name__ == '__main__':
+    image_path = 'D:/Internship_Tasks/Maharshi_Animal-_and_Human_Detection_Model/scripts/final_test.png'
+    process_image(image_path)
     monitor_directory()

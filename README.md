@@ -76,10 +76,6 @@ Below is an example output with YOLO+MobileNet:
 
 ![Annotated Frame](Readme_material/videoplayback_sec0_annotated.jpg)  
 
-Also sample intermediate frames:
-<img src="Readme_material/frame0_96b7a1d9.jpg" alt="Sample Frame 1" width="300"/>
-![Sample Frame 1](Readme_material/frame0_96b7a1d9.jpg)  
-
 
 ---
 
